@@ -1,0 +1,9 @@
+body { height: 100%; }
+#shDisplay div#shTitle { font: normal 12px/17px 'Lucida Grande' , Verdana, sans-serif; color: #ffffff; text-align: center; margin: 0 auto; }
+#shShutter *, #shDisplay * { padding: 0; margin: 0; }
+div#shShutter, div#shDisplay { top: 0; left: 0; width: 100%; position: absolute; }
+div#shShutter { height: 100%; z-index: 1000; background-color: #000000; opacity: 0.75; filter:alpha(opacity=75);}
+div#shDisplay { display: block; background-color: transparent; z-index: 1002; }
+div#shDisplay img#shTopImg { margin: 0 auto; border: 1px solid #555; background: transparent; display: block; max-width: none; max-height: none; float: none; padding: 2px; cursor: pointer; }
+div#shDisplay img#shTopImg:hover { border: 1px solid #0099ff; }
+div#shDisplay div#shWrap { visibility: hidden; }
