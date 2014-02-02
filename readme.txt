@@ -6,7 +6,7 @@ Tags: image uploader, upload images, upload, uploader, gallery, galleries, image
 Requires at least: 3.5
 Tested up to: 3.8
 
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 
 License: GPLv2 or later
 
@@ -74,6 +74,9 @@ Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collectio
 That’s it! Enjoy using the plugin.
 
 == Changelog ==
+
+= 1.5.2 =
+* Changes: None. Fixing file versions in repository.
 
 = 1.5.1 20130120 =
 

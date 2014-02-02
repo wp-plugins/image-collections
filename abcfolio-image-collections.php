@@ -5,7 +5,7 @@
  * Description: Image Collections for WordPress.
  * Author: abcFolio WordPress Plugins
  * Author URI: http://www.abcfolio.com
- * Version: 1.5.1
+ * Version: 1.5.2
  * Text Domain: abcfic-td
  * Domain Path: /languages
  *
