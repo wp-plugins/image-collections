@@ -1,12 +1,12 @@
 === Image Collections ===
 Author URI: http://www.abcfolio.com
 Plugin URI: http://abcfolio.com/help/wordpress-plugin-image-collections/
-Contributors: abcfolio, jasiu
+Contributors: abcfolio
 Tags: image uploader, upload images, upload, uploader, gallery, galleries, images, images, collections, abcfolio
 Requires at least: 3.5
 Tested up to: 3.8
 
-Stable tag: 1.5.2
+Stable tag: 1.6.0
 
 License: GPLv2 or later
 
@@ -74,6 +74,9 @@ Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collectio
 That’s it! Enjoy using the plugin.
 
 == Changelog ==
+
+= 1.6.0 =
+* New: Added db-user file.
 
 = 1.5.2 =
 * Changes: None. Fixing file versions in repository.
