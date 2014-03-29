@@ -5,7 +5,7 @@
  * Description: Image Collections for WordPress.
  * Author: abcFolio WordPress Plugins
  * Author URI: http://www.abcfolio.com
- * Version: 1.6.0
+ * Version: 1.6.1
  * Text Domain: abcfic-td
  * Domain Path: /languages
  *
@@ -81,7 +81,7 @@ final class ABCFIC_Image_Collections {
     private function setup_constants() {
 
         // Plugin version
-        if ( ! defined( 'ABCFIC_VERSION' ) ) { define( 'ABCFIC_VERSION', '1.6.0' ); }
+        if ( ! defined( 'ABCFIC_VERSION' ) ) { define( 'ABCFIC_VERSION', '1.6.1' ); }
         if ( ! defined( 'ABCFIC_FOLDERS' ) ) { define( 'ABCFIC_FOLDERS', serialize (array ('thumbs', 'thumbs2', 'medium', 'originals'))); }
         if ( ! defined( 'ABCFIC_ABSPATH' ) ) {  define('ABCFIC_ABSPATH', ABSPATH); }
 
@@ -112,7 +112,6 @@ final class ABCFIC_Image_Collections {
             require_once ABCFIC_PLUGIN_DIR . 'includes/input-builders.php';
             require_once ABCFIC_PLUGIN_DIR . 'includes/content-bldrs.php';
             require_once ABCFIC_PLUGIN_DIR . 'includes/db.php';
-            require_once ABCFIC_PLUGIN_DIR . 'includes/db-user.php';
             require_once ABCFIC_PLUGIN_DIR . 'includes/lib-css-builders.php';
             require_once ABCFIC_PLUGIN_DIR . 'includes/lib-html-builders.php';
             require_once ABCFIC_PLUGIN_DIR . 'includes/scripts.php';
@@ -129,6 +128,7 @@ final class ABCFIC_Image_Collections {
                 $this->abcicMainMenu = new ABCFIC_Main_Menu();
             }
         }
+        require_once ABCFIC_PLUGIN_DIR . 'includes/db-user.php';
         require_once ABCFIC_PLUGIN_DIR . 'includes/install.php';
     }
 

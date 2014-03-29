@@ -6,7 +6,7 @@ Tags: image uploader, upload images, upload, uploader, gallery, galleries, image
 Requires at least: 3.5
 Tested up to: 3.8
 
-Stable tag: 1.6.0
+Stable tag: 1.6.1
 
 License: GPLv2 or later
 
@@ -14,19 +14,19 @@ WordPress image uploader and organizer.
 
 == Description ==
 
-**Image uploader and organizer.**
+### Image uploader and organizer.
 
-If you want to create group of images and keep them in a separate folder this plugin may be for you.
+If you want to create group of images and keep them in a separate folder this plugin is for you.
 
-The plugin is intended for WordPress theme and plugin developers who are looking for a better way to work with sets of images. Please note that this plugin is not suitable for non-developers.
+The plugin is intended for WordPress theme and plugin developers who are looking for a better way to work with sets of images.
 
 Plugin has an administration interface to handle image upload and management. There is no front-end presentation layer. Custom coding is required to display images on a page.
 
 Image Collections plugin uses custom tables not linked to WordPress Media Library. Images are stored in individual folders outside the Media Library. Optimized data storage provides excellent performance even with large number of records.
 
-**Collection**: set of images stored in its own folder folder.
+**Collection**: set of images stored in its own folder.
 
-**Features**
+### Features
 
 * Each collection has a name and description
 * Each collection stores images in its own folder.
@@ -37,25 +37,27 @@ Image Collections plugin uses custom tables not linked to WordPress Media Librar
 
 Image Collections plugin can make management of a large number of images a simple task.
 
+### Integration with other Plugins
+
+For a working example of how to integrate Image Collections with other plugins, see  **[Fullscreen Slides](http://abcfolio.com/help/wordpress-plugin-fullscreen-slides/)**
 
 
-= User Guide =
+### User Guide
 
-Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collections/](http://abcfolio.com/help/wordpress-plugin-image-collections//).
+Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collections/](http://abcfolio.com/help/wordpress-plugin-image-collections/).
 
-= Premium Version =
+### Premium Version
 
 [Image Collections Pro](http://abcfolio.com/help/wordpress-plugin-image-collections/) premium version offers these extra features:
 
 * Option to extract and save image metadata. Both EXIF and IPTC are saved, including keywords and GPS data.
 * Up to 4 image sizes: Large, Medium, Thumbnail and Original.
 * Option to skip duplicates during the upload.
-* Batch regenerate all thumbnails.
-* Custom crop thumbnails.
-* Image can have title, alt, 4 captions, description, link url and link target.
-* Make image active/inactive without deleting it.
-* Copy images between collections.
-* Move images between collections.
+* You can custom crop and batch recreate thumbnails.
+* You can add title, alt, 4 captions, description, custom link, and other data to each of the images.
+* You can make image active/inactive without deleting it.
+* You can copy images between collections.
+* You can move images between collections.
 * Compatible with multisite.
 * Premium, One-on-One support.
 
@@ -74,6 +76,11 @@ Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collectio
 That’s it! Enjoy using the plugin.
 
 == Changelog ==
+
+= 1.6.1 20140328 =
+
+* New: Added functions to db-user.
+* Fix: Fixed path to db-user.
 
 = 1.6.0 =
 * New: Added db-user file.
