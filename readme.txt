@@ -2,7 +2,7 @@
 Author URI: http://www.abcfolio.com
 Plugin URI: http://abcfolio.com/help/wordpress-plugin-image-collections/
 Contributors: abcfolio
-Tags: image uploader, upload images, upload, uploader, gallery, galleries, images, images, collections, abcfolio
+Tags: image uploader, upload images, upload, uploader, gallery, galleries, image, images, collections, photo, album, photo albums, photos, picture, pictures
 Requires at least: 3.5
 Tested up to: 3.8
 
@@ -20,7 +20,14 @@ If you want to create group of images and keep them in a separate folder this pl
 
 The plugin is intended for WordPress theme and plugin developers who are looking for a better way to work with sets of images.
 
-Plugin has an administration interface to handle image upload and management. There is no front-end presentation layer. Custom coding is required to display images on a page.
+For working examples of how to use Image Collections in other plugins, see:
+
+* **[Fullscreen Slides](http://abcfolio.com/help/wordpress-plugin-fullscreen-slides/)**
+* **[Andora Lightbox](http://wordpress.org/plugins/andora-lightbox/)**
+
+In both cases, Image Collections plugin is used as an image uploader and organizer. You may find the concept of custom image management a familiar one if you ever worked with NexGEN Gallery plugin.
+
+Plugin has an administration interface to handle image upload and management. There is no front-end presentation layer. Custom coding is required to use images in posts or plugins.
 
 Image Collections plugin uses custom tables not linked to WordPress Media Library. Images are stored in individual folders outside the Media Library. Optimized data storage provides excellent performance even with large number of records.
 
@@ -32,15 +39,17 @@ Image Collections plugin uses custom tables not linked to WordPress Media Librar
 * Each collection stores images in its own folder.
 * Each collection has its own set of options.
 * Each collection has its own image dimensions.
-* Up to 2 image sizes: large and thumbnail.
+* Up to two image sizes: large and thumbnail.
 * Add title, alt and caption to each of the images.
 
 Image Collections plugin can make management of a large number of images a simple task.
 
 ### Integration with other Plugins
 
-For a working example of how to integrate Image Collections with other plugins, see  **[Fullscreen Slides](http://abcfolio.com/help/wordpress-plugin-fullscreen-slides/)**
+For a working example of how to integrate Image Collections with other plugins, see
 
+* **[Fullscreen Slides](http://abcfolio.com/help/wordpress-plugin-fullscreen-slides/)**
+* **[Andora Lightbox](http://wordpress.org/plugins/andora-lightbox/)**
 
 ### User Guide
 
@@ -76,6 +85,10 @@ Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collectio
 That’s it! Enjoy using the plugin.
 
 == Changelog ==
+
+= 1.6.2 201404 =
+
+* Change: Changed main menu label to Image Collections
 
 = 1.6.1 20140328 =
 
