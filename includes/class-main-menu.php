@@ -15,7 +15,7 @@ class ABCFIC_Main_Menu{
 
     function add_menu()  {
         //add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position );
-        add_menu_page( 'abcCollections', 'Collections', 'manage_options', ABCFIC_PLUGIN_FOLDER, array( &$this, 'load_page' ), ABCFIC_PLUGIN_URL . 'images/icbw-16x16.png');
+        add_menu_page( 'abcCollections', 'Image Collections', 'manage_options', ABCFIC_PLUGIN_FOLDER, array( &$this, 'load_page' ), ABCFIC_PLUGIN_URL . 'images/icbw-16x16.png');
 
         //add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function )
         add_submenu_page( ABCFIC_PLUGIN_FOLDER , 'Add Collection', 'Add Collection', 'manage_options', ABCFIC_PLUGIN_FOLDER, array (&$this, 'load_page'));

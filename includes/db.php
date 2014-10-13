@@ -119,15 +119,14 @@ function abcfic_db_tbl_collection( $collID, $orderBy, $orderDir ) {
 function abcfic_db_tbl_collections( $orderBy, $orderDir ) {
 
     global $wpdb;
-    $out = $wpdb->get_results(
-            $wpdb->prepare( "SELECT c.coll_id AS rno, c.coll_id, c.coll_name, i.imgs_qty,
+    $out = $wpdb->get_results("SELECT c.coll_id AS rno, c.coll_id, c.coll_name, i.imgs_qty,
                 CONCAT_WS('x', convert(c.max_thumb_w, char), convert(c.max_thumb_h,char)) as thumb_wh,
                 CONCAT_WS('x', convert(c.max_img_w, char), convert(c.max_img_h,char)) as img_wh,
                 added_dt, updated_dt
                 FROM  $wpdb->abcficcolls c
                 LEFT JOIN  (SELECT coll_id, COUNT(1) AS imgs_qty
                 FROM $wpdb->abcficimgs GROUP BY coll_id) i ON (c.coll_id = i.coll_id)
-                ORDER BY {$orderBy} {$orderDir}",''), ARRAY_A);
+                ORDER BY {$orderBy} {$orderDir}", ARRAY_A);
 
     return $out;
 }
