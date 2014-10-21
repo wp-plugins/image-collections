@@ -59,7 +59,7 @@ Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collectio
 
 [Image Collections Pro](http://abcfolio.com/help/wordpress-plugin-image-collections/) premium version offers these extra features:
 
-* Option to extract and save image metadata. Both EXIF and IPTC are saved, including keywords and GPS data.
+* You can extract and save image metadata. Both EXIF and IPTC are saved, including keywords and GPS data.
 * Up to 4 image sizes: Large, Medium, Thumbnail and Original.
 * Option to skip duplicates during the upload.
 * You can custom crop and batch recreate thumbnails.
