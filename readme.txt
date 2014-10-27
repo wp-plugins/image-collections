@@ -48,8 +48,10 @@ Image Collections plugin can make management of a large number of images a simpl
 
 For a working example of how to integrate Image Collections with other plugins, see
 
+* **[FlexGrid Lightbox](http://abcfolio.com/help/flexgrid-lightbox/)**
 * **[Fullscreen Slides](http://abcfolio.com/help/wordpress-plugin-fullscreen-slides/)**
 * **[Andora Lightbox](http://wordpress.org/plugins/andora-lightbox/)**
+
 
 ### User Guide
 
