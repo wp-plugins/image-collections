@@ -22,7 +22,7 @@ The plugin is intended for WordPress theme and plugin developers who are looking
 
 Please note that this plugin isn't suitable for non-developers. You need to build your own custom plugin to use Image Collections.
 
-How to use Image Collections in other plugins see:
+To see how to use Image Collections in other plugins check:
 
 * **[Fullscreen Slides](http://abcfolio.com/help/wordpress-plugin-fullscreen-slides/)**
 * **[Andora Lightbox](http://wordpress.org/plugins/andora-lightbox/)**
