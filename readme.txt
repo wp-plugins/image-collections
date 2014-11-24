@@ -18,7 +18,7 @@ WordPress image uploader and organizer.
 
 If you want to create group of images and keep them in a separate folder this plugin is for you.
 
-The plugin is intended for WordPress theme and plugin developers who are looking for a better way to work with sets of images.
+The plugin is intended for WordPress theme and plugin developers who are looking for a better way to work with large number of images.
 
 Please note that this plugin isn't suitable for non-developers. You need to build your own custom plugin to use Image Collections.
 
