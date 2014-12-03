@@ -37,7 +37,7 @@ Image Collections plugin uses custom tables not linked to WordPress Media Librar
 
 ### Features
 
-* Each collection has a name and description
+* Each collection has a name.
 * Each collection stores images in its own folder.
 * Each collection has its own set of options.
 * Each collection has its own image dimensions.
