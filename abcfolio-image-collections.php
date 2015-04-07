@@ -5,7 +5,7 @@
  * Description: Image Collections for WordPress.
  * Author: abcFolio WordPress Plugins
  * Author URI: http://www.abcfolio.com
- * Version: 1.6.3
+ * Version: 1.6.4
  * Text Domain: abcfic-td
  * Domain Path: /languages
  *
@@ -81,7 +81,7 @@ final class ABCFIC_Image_Collections {
     private function setup_constants() {
 
         // Plugin version
-        if ( ! defined( 'ABCFIC_VERSION' ) ) { define( 'ABCFIC_VERSION', '1.6.3' ); }
+        if ( ! defined( 'ABCFIC_VERSION' ) ) { define( 'ABCFIC_VERSION', '1.6.4' ); }
         if ( ! defined( 'ABCFIC_FOLDERS' ) ) { define( 'ABCFIC_FOLDERS', serialize (array ('thumbs', 'thumbs2', 'medium', 'originals'))); }
         if ( ! defined( 'ABCFIC_ABSPATH' ) ) {  define('ABCFIC_ABSPATH', ABSPATH); }
 

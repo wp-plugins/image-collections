@@ -4,9 +4,9 @@ Plugin URI: http://abcfolio.com/help/wordpress-plugin-image-collections/
 Contributors: abcfolio
 Tags: image uploader, upload images, upload, uploader, gallery, galleries, image, images, collections, photo, album, photo albums, photos, picture, pictures
 Requires at least: 3.5
-Tested up to: 4.0
+Tested up to: 4.1.1
 
-Stable tag: 1.6.3
+Stable tag: 1.6.4
 
 License: GPLv2 or later
 
@@ -89,6 +89,9 @@ Full documentation at [http://abcfolio.com/help/wordpress-plugin-image-collectio
 That’s it! Enjoy using the plugin.
 
 == Changelog ==
+
+= 1.6.4 20150407 =
+* Update: Tested with WordPress 4.1.1.
 
 = 1.6.3 20140 =
 * Update: Tested compatibility with WordPress 4.0.
